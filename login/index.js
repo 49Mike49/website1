@@ -5,7 +5,7 @@ const password = document.querySelector("#password");
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
     if (validatingForm()) {
-        window.location.href = '../../homepage/index.html';
+        window.location.href = '../../index.html';
     }
 })
 
