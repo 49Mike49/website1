@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+}
+.navigation_bar{
+    display:flex;
+    background-color: antiquewhite;
+    height:20%;
+}
+ul{
+    margin-left:750px;
+    list-style-type: none;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.loo{
+    border:2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+li{
+    font-size: 20px;
+    width:100px;
+    border-radius: 5px;
+    text-align: center;
+}
+ul>li:hover a{
+    color:#943126;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.services{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.service_page{
+    background-color: lavender;
+    height:80%
+}
+p{
+    text-align: center;
+}
+.container p:hover{
+    color:#3597d8;
+}

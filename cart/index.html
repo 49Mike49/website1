@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../../homepage/cart/css/main.css">
+    <script src="../../homepage/cart/index.js" defer></script>
+</head>
+<body>
+    <div class="navigation_bar">
+        <div class="logo"><img src="../cart/assets/flipkart-logo.png" height="70px" width="200px" style="object-fit: cover;"></div>
+
+        <ul>
+            <li><a href="../../homepage/index.html">Home</a></li>
+            <li><a href="../../homepage/About/index.html">About</a></li>
+            <li><a href="../../homepage/service/index.html">Services</a></li>
+            <li class="cart_li"><a href="#">Cart</a>
+                <span>0</span>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <div class="cart-actions">
+            <button id="remove-all-btn">Remove All Items</button>
+        </div>
+        <div id="cart_products">
+            
+        </div>
+        <div id="empty-cart-message" style="display: none;">
+            <p>Your cart is empty. Continue shopping to add items to your cart.</p>
+            <a href="../../homepage/index.html" class="continue-shopping">Continue Shopping</a>
+        </div>
+    </div>
+</body>
+</html>

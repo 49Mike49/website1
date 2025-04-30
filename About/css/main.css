@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.navigation_bar{
+    display:flex;
+    background-color: antiquewhite;
+}
+ul{
+    margin-left:750px;
+    list-style-type: none;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-size: 20px;
+    width:100px;
+    border-radius: 5px;
+    text-align: center;
+}
+ul>li:hover a{
+    color:#943126;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.about_content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:30%;
+    transition: transform 2s ease;
+}
+.about_us{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lavender;
+}
+.mission_content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:30%;
+    transition: transform 2s ease;
+
+}
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lavender;
+}
+.mission_content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:30%;
+    transition: transform 2s ease;
+
+}
+.evolution{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lavender;
+}
+.about_us img{
+    transition:transform 2s ease;
+}
+.about_us:hover .about_content h1{
+    color:red;
+}
+.about_us:hover img{
+    transform: translateX(200px);
+}
+.mission img{
+    transition:transform 2s ease;
+}
+.mission:hover .mission_content h1{
+    color:red;
+}
+.mission:hover img{
+    transform: translateX(200px);
+}
+.evolution img{
+    transition:transform 2s ease;
+}
+.evolution:hover .about_content h1{
+    color:red;
+}
+.evolution:hover img{
+    transform: translateX(200px);
+}
